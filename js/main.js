@@ -8,7 +8,7 @@
 
 
 
-// Company Employees List 
+//! Company Employees List 
 
 const companyEmployeesList = [{
     name: 'Wayne Barnett',
@@ -39,5 +39,14 @@ const companyEmployeesList = [{
     name: 'Barbara Ramos',
     role: 'Graphic Designer',
     photo: 'barbara-ramos-graphic-designer.jpg',
-
 }];
+
+
+// ? Cycling through the list of employees and show info on the consle 
+
+for (let i = 0; i < companyEmployeesList.length; i++) {
+    const listVisual = companyEmployeesList[i];
+    console.log(`    ${listVisual.name} 
+    ${listVisual.role} 
+    ${listVisual.photo}`);
+}
