@@ -53,9 +53,9 @@ for (let i = 0; i < companyEmployeesList.length; i++) {
     ${listVisual.photo}`);
 
     const ListItem = document.createElement('div');
-    ListItem.innerHTML = `<div class="card m-3 " style="width: 18rem;">
+    ListItem.innerHTML = `<div class="card m-3" style="width: 18rem;">
       <img src="${listVisual['photo']}" class="card-img-top" alt="...">
-      <div class="card-body ">
+      <div class="card-body">
         <h5 class="card-title fw-bold">Employee Card</h5>
       </div>
       <ul class="list-group list-group-flush">
