@@ -1,10 +1,14 @@
 .my_container {
   background-color: rgb(36, 255, 124);
   border-radius: 20px;
+
 }
 
 h1 {
+ 
+  font-size: 50px;
   margin-top: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -14,4 +18,10 @@ p {
   text-align: center;
   margin-top: 20px;
   
+}
+
+.my_output {
+  margin:0 auto;
+
+  flex-wrap: wrap;
 }
