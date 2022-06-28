@@ -46,6 +46,7 @@ const companyEmployeesList = [{
 const outputList = document.getElementById('list-output');
 
 // ? Cycling through the list of employees and show info on the consle 
+
 for (let i = 0; i < companyEmployeesList.length; i++) {
     const listVisual = companyEmployeesList[i];
     console.log(`    ${listVisual.name} 

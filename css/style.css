@@ -1,11 +1,11 @@
 .my_container {
+
   background-color: rgb(36, 255, 124);
   border-radius: 20px;
 
 }
 
 h1 {
- 
   font-size: 50px;
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
@@ -23,5 +23,7 @@ p {
 .my_output {
   margin:0 auto;
   flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
 
