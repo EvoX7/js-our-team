@@ -57,7 +57,7 @@ for (let i = 0; i < companyEmployeesList.length; i++) {
     ListItem.innerHTML = `<div class="card m-3" style="width: 18rem;">
       <img src="${listVisual['photo']}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title fw-bold">Employee Card</h5>
+        <h5 class="card-title fw-bold">Member</h5>
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">${listVisual.name}</li>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 .my_container {
 
   background-color: rgb(36, 255, 124);
@@ -8,7 +10,7 @@
 h1 {
   font-size: 50px;
   margin-top: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Titan One', cursive;
 }
 
 p {
