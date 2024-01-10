@@ -49,9 +49,9 @@ const outputList = document.getElementById('list-output');
 
 for (let i = 0; i < companyEmployeesList.length; i++) {
     const listVisual = companyEmployeesList[i];
-    console.log(`    ${listVisual.name} 
-    ${listVisual.role} 
-    ${listVisual.photo}`);
+
+
+    console.log(`${listVisual.name} ${listVisual.role} ${listVisual.photo}`);
 
     const ListItem = document.createElement('div');
     ListItem.innerHTML = `<div class="card m-3" style="width: 18rem;">
